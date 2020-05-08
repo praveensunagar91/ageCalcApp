@@ -27,6 +27,10 @@ class _MyAppState extends State<MyApp> {
       print(name);
           _visible= true;
 
+          nameController.clear();
+          currentController.clear();
+          birthController.clear();
+
 //  showDialog(
 //          context: context,
 //          builder: (context) {
@@ -117,6 +121,7 @@ class _MyAppState extends State<MyApp> {
                     fontSize: 20.0,
                     color: Colors.indigo,
                     fontWeight: FontWeight.bold,
+                    fontFamily: 'Nunito',
                   ),),
               ),
             ),
